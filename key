@@ -1,0 +1,28 @@
+Your identification has been saved in /c/Users/narvika/.ssh/id_rsa.
+Your public key has been saved in /c/Users/narvika/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Zw2WNFRXWSJZf1YwvL/EeRiTys/7xQEmpSRsFIvHXY0 ideaxvision@gmail.com
+
+
+to check generated key :
+ls ~/.ssh
+
+id_rsa > private key
+id_rsa.pub >public key
+
+…or create a new repository on the command line
+echo "# profiles-rest-api" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:ideavision/profiles-rest-api.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:ideavision/profiles-rest-api.git
+git push -u origin master
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
